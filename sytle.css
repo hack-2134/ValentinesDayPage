@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: beige;
+}
+img {
+  position: relative;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  display: block;
+  width: 10em;
+  height: auto;
+  margin: auto;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  /*size: 50px 50px;*/
+}
+img:hover{
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+h1 {
+  padding-top: 10em;
+  width: 100%;
+  display: inline-block;
+  color: beige;
+  text-align: center;
+  /*padding: 10em;*/
+}
